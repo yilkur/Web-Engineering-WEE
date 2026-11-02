@@ -1,6 +1,6 @@
 <!--
   Author: Yilmaz Kurnazcan
-  Last modified: 26.10.2026
+  Last modified: 02.11.2026
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -9,27 +9,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VIBE - Vitality, Intake, Body, Exercise</title>
+  <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="calculate.html">Calculate BMI</a></li>
-      <li><a href="categories.html">BMI Categories</a></li>
-      <li><a href="statistics.html">BMI Statistics</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav>
+      <a class="logo" href="index.html">VIBE</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="calculate.html" aria-current="page">Calculate BMI</a></li>
+        <li><a href="categories.html">BMI Categories</a></li>
+        <li><a href="statistics.html">BMI Statistics</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <main>
     <h1>Please fill the form to calculate the BMI</h1>
 
     <form id="calculate-bmi">
-      <label for="weight">Weight (kg):</label><br>
-      <input required type="text" id="weight" name="weight" placeholder="Weight in kg"><br>
-      <label for="height">Height (cm):</label><br>
-      <input required type="text" id="height" name="height" placeholder="Height in cm"><br><br>
+      <label for="weight">Weight (kg):</label>
+      <input required type="text" id="weight" name="weight" placeholder="Weight in kg">
+      <label for="height">Height (cm):</label>
+      <input required type="text" id="height" name="height" placeholder="Height in cm">
       <input type="submit" value="Calculate BMI">
     </form>
   </main>

@@ -1,6 +1,6 @@
 <!--
   Author: Yilmaz Kurnazcan
-  Last modified: 26.10.2026
+  Last modified: 02.11.2026
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -9,17 +9,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VIBE - Vitality, Intake, Body, Exercise</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="calculate.html">Calculate BMI</a></li>
-      <li><a href="categories.html">BMI Categories</a></li>
-      <li><a href="statistics.html">BMI Statistics</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav>
+      <a class="logo" href="index.html">VIBE</a>
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="calculate.html">Calculate BMI</a></li>
+        <li><a href="categories.html">BMI Categories</a></li>
+        <li><a href="statistics.html">BMI Statistics</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <main>
     <h1>Welcome to the VIBE Application! <br>VIBE stands for: "Vitality, Intake, Body, Exercise"</h1>
@@ -30,7 +34,7 @@
       The BMI is calculated by dividing weight in kilograms by the square of height in meters:
     </p>
 
-    <p>
+    <p class="formula">
       <strong>BMI = weight in kg ÷ (height in m)<sup>2</sup></strong>
     </p>
   </main>
