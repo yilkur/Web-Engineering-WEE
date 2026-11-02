@@ -1,0 +1,39 @@
+<!--
+  Author: Yilmaz Kurnazcan
+  Last modified: 26.10.2026
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIBE - Vitality, Intake, Body, Exercise</title>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="calculate.html">Calculate BMI</a></li>
+      <li><a href="categories.html">BMI Categories</a></li>
+      <li><a href="statistics.html">BMI Statistics</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Please fill the form to calculate the BMI</h1>
+
+    <form id="calculate-bmi">
+      <label for="weight">Weight (kg):</label><br>
+      <input required type="text" id="weight" name="weight" placeholder="Weight in kg"><br>
+      <label for="height">Height (cm):</label><br>
+      <input required type="text" id="height" name="height" placeholder="Height in cm"><br><br>
+      <input type="submit" value="Calculate BMI">
+    </form>
+  </main>
+
+</body>
+
+</html>
